@@ -1,6 +1,6 @@
-# Principles of Programming Languages (PPL 242) — Assignment 4
+# Principles of Programming Languages — Assignment 4
 
-Fourth assignment for **Principles of Programming Languages (PPL 242)**.  
+Fourth assignment for **Principles of Programming Languages**.  
 This project combines **functional programming in Racket** (Continuation-Passing Style & Lazy lists) with **logic programming in Prolog** (unification, graph queries, proof trees).  
 Deliverables: `ex4.pdf` (theory), `ex4.rkt` (Racket code), `ex4.pl` (Prolog code).
 
@@ -8,11 +8,11 @@ Deliverables: `ex4.pdf` (theory), `ex4.rkt` (Racket code), `ex4.pl` (Prolog code
 
 ## Overview
 
-### Q1 — Continuation-Passing Style (CPS) [20 pts]
+### Q1 — Continuation-Passing Style (CPS)
 - Implemented `pipe$`, a CPS version of the classic `pipe` procedure, to compose unary CPS functions.  
 - Proved formally that `pipe$` is **CPS-equivalent** to `pipe` (proof in `ex4.pdf`).  
 
-### Q2 — Lazy Lists [30 pts]
+### Q2 — Lazy Lists
 - **`reduce1-lzl`** — reduce an entire lazy list with `(op, init)`.  
 - **`reduce2-lzl`** — reduce only the first *n* elements of a lazy list.  
 - **`reduce3-lzl`** — produce a lazy list of prefix-reductions (running sums).  
@@ -20,7 +20,7 @@ Deliverables: `ex4.pdf` (theory), `ex4.rkt` (Racket code), `ex4.pl` (Prolog code
 - **`generate-pi-approximations`** — lazy sequence converging to π, each element refining the approximation.  
 - Explained use cases for each reduction variant and analyzed trade-offs vs. `pi-sum`.  
 
-### Q3 — Logic Programming [50 pts]
+### Q3 — Logic Programming
 #### 3.1 — Unification
 - Applied the **unification algorithm** to several terms, step by step, including cases of success and failure.
 
